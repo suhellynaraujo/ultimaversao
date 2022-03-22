@@ -1,0 +1,176 @@
+
+
+.Avaliacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-image: url("../../img/banner.jpeg");  
+    background-repeat: no-repeat;  
+    background-size: cover;
+    height: 300px;
+}
+
+.bannerAvaliacao{   
+    text-align: center;
+    margin-top: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.200);
+    border-radius: 10px;
+    background-color: white;
+    height: 500px;
+    width: 60%;   
+}
+
+.containertitulo{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.tituloAvaliacao{
+    padding : 5px; 
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.listAvaliacao{
+   width: 50%;
+   height: 50%;
+}
+
+.list{
+    display: flex;
+    margin: 10px;
+}
+
+
+@media (max-width: 1024px) {
+    .Avaliacao{
+        background-image: url("../../img/banner.jpeg");  
+        background-repeat: no-repeat;    
+        background-size: contain;
+        width: 100%;
+    }
+    
+    .bannerAvaliacao{        
+        margin-top: 57%;
+
+             
+    }
+}
+
+@media(max-width: 768px){
+    .Avaliacao{
+        width: 100%;
+    }
+
+    .bannerAvaliacao{      
+        margin-top: 63%; 
+             
+    }
+    .tituloAvaliacao{
+        font-size: 20px;
+    }
+
+    .parafrafoAvaliacao{
+        font-size: 18px;
+    }
+}
+@media(max-width: 700px){
+    .Avaliacao{
+        width: 100%;
+    }
+
+    .bannerAvaliacao{      
+        margin-top: 65%; 
+             
+    }
+    .tituloAvaliacao{
+        font-size: 20px;
+    }
+
+    .parafrafoAvaliacao{
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 425px){    
+    .bannerAvaliacao{  
+        width: 80%;
+        margin-top: 85%;
+          
+    }
+    .tituloAvaliacao{
+        font-size: 16px;
+    }
+
+    .parafrafoAvaliacao{
+        font-size: 14px;
+    }
+    
+.containertitulo{ 
+    padding: 10px;
+}
+}
+
+
+@media(min-width: 375px) and (max-width: 425px ){    
+    .bannerAvaliacao{  
+        width: 80%;
+        margin-top: 85%;
+          
+    }
+    .tituloAvaliacao{
+        font-size: 16px;
+    }
+
+    .parafrafoAvaliacao{
+        font-size: 14px;
+    }
+    
+.containertitulo{ 
+    padding: 10px;
+}
+}
+@media(max-width: 375px){
+    .bannerAvaliacao{  
+        width: 80%;   
+    }
+    .bannerAvaliacao{   
+        margin-top: 90%;
+    }
+    .tituloAvaliacao{
+        font-size: 14px;
+    }
+
+    .parafrafoAvaliacao{
+        font-size: 14px;
+    }
+    
+.containertitulo{ 
+    padding: 5px;
+}
+}
+@media(max-width:320px) {
+    .bannerAvaliacao{  
+        width: 80%;   
+    }
+    .bannerAvaliacao{   
+        margin-top: 100%;
+    }
+    .tituloAvaliacao{
+        font-size: 16px;
+    }
+
+    .parafrafoAvaliacao{
+        font-size: 14px;
+    }
+    
+.containertitulo{ 
+    padding: 1px;
+}
+
+
+    
+}
+

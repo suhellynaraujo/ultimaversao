@@ -1,0 +1,43 @@
+.titulos {
+  padding-left: 60px;
+}
+
+.quemsomos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.quemsomosprincipal {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+.textoquemsomos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  margin-right: 50%;
+  color: black;
+}
+.btn-quemsomos {
+  background-color: #ffae00;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+}
+.quemsomos-secundario {
+  display: flex;
+ 
+}
+.videoquemsomos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
